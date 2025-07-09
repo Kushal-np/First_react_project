@@ -1,0 +1,9 @@
+body {
+  background-image: 
+    url("/src/assets/magicpattern-god-rays-1752049007637.png"),  /* top layer */
+    url("/src/assets/magicpattern-grid-pattern-1752048877658.png"); /* bottom layer */
+  
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center, center center;
+  background-size: cover, cover;
+}
