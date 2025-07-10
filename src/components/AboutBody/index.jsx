@@ -36,7 +36,7 @@ function AboutBody() {
           {/* Illustration / Graphic */}
           <div className="flex-1">
             <img
-              src="/src/assets/about-lume-illustration.png"
+              src="https://plus.unsplash.com/premium_photo-1661320891334-e46de87e8467?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="About LUME"
               className="w-full max-w-md mx-auto drop-shadow-lg rounded-xl"
             />
