@@ -41,9 +41,9 @@ function SignUpForm() {
   };
 
   return (
-    <div>
+    <div className="background_second_main">
         <Navbar />
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 flex items-center justify-center p-4 fonty">
+    <div className=" top-[10vh] background_second_main relative min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 flex items-center justify-center p-4 fonty">
       <div className="w-full max-w-sm">
         {/* Simple header */}
         <div className="text-center mb-6">

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, User, Mail, Phone, MessageSquare, Sparkles } from "lucide-react";
+import { Send, User, Mail, Phone, MessageSquare , Sparkles } from "lucide-react";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -31,7 +31,7 @@ function ContactForm() {
   };
 
   return (
-    <div className=" w-full min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white overflow-hidden fonty">
+    <div className="background_second_main w-full min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white overflow-hidden fonty">
       {/* Grid Background */}
       <div className="fixed inset-0 opacity-5 pointer-events-none">
         <div className="h-full w-full bg-[linear-gradient(rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
@@ -55,9 +55,7 @@ function ContactForm() {
           {/* Contact Form */}
           <div className="relative bg-gradient-to-br from-gray-900/50 to-gray-800/50 p-8 md:p-12 rounded-3xl border border-gray-700/50 backdrop-blur-sm shadow-2xl shadow-purple-500/10">
             <div className="absolute top-6 right-6">
-              <div className="inline-flex p-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 shadow-lg">
-                <Sparkles className="w-6 h-6 text-white" />
-              </div>
+             
             </div>
 
             <div className="space-y-8">
