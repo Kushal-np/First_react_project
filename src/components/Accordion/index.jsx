@@ -31,7 +31,7 @@ function Accordion() {
   const [selected, setSelected] = useState(null);
 
   return (
-    <div className="w-full  background_second_main l max-w-4xl mx-auto mt-16 px-4">
+    <div className="w-full relative bottom-15 background_second_main l max-w-4xl mx-auto mt-16 px-4">
       <div className="glass-card rounded-2xl border border-white/10 backdrop-blur-xl shadow-[0_0_40px_rgba(56,189,248,0.1)] divide-y divide-white/10 overflow-hidden">
         {Data.map((data, index) => (
           <div key={data.id}>

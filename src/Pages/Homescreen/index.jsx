@@ -7,6 +7,7 @@ import ImageLanding from "../../components/Video";
 import ProductTeams from "../../components/ProductTeams";
 import ScalePictures from "../../components/Scalepictures";
 import JoinPlatform from "../../components/Footer";
+import PermanentFooter from "../../components/PermanentFooter";
 
 function HomeScreen() {
   return (
@@ -66,6 +67,10 @@ function HomeScreen() {
 
         <div>
           <JoinPlatform />
+        </div>
+
+        <div>
+          <PermanentFooter />
         </div>
     </div>
   );

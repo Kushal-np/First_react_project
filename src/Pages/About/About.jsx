@@ -2,6 +2,7 @@ import AboutBody from "../../components/AboutBody";
 import Accordion from "../../components/Accordion";
 import GlowingTextComponent from "../../components/GlowingTextComponent/indes";
 import Navbar from "../../components/Navbar";
+import PermanentFooter from "../../components/PermanentFooter";
 
 function About(){
     return(
@@ -13,6 +14,7 @@ function About(){
             <GlowingTextComponent />
             <Accordion />
             </div>
+            <PermanentFooter />
         </div>
     )
 }
